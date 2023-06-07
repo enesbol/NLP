@@ -10,6 +10,8 @@ https://arxiv.org/abs/2203.12533 PATHWAYS: ASYNCHRONOUS DISTRIBUTED DATAFLOW FOR
 
 https://arxiv.org/abs/2204.02311 PaLM: Scaling Language Modeling with Pathways
 
+https://arxiv.org/abs/1906.08237 XLNet: Generalized Autoregressive Pretraining for Language Understanding
+ 
 
 
 
