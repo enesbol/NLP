@@ -38,6 +38,10 @@ https://arxiv.org/abs/2310.06839 LongLLMLingua: Accelerating and Enhancing LLMs 
 https://github.com/run-llama/llama_index/blob/main/llama_index/postprocessor/longllmlingua.py LongLLMLingua is now part of the LlamaIndex pipeline, a widely-used RAG framework. 
 
 
+
+https://arxiv.org/pdf/1909.10351.pdf: TINYBERT: DISTILLING BERT FOR NATURAL LANGUAGE UNDERSTANDING
+https://arxiv.org/pdf/1910.01108.pdf: DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter
+
 https://medium.com/towards-data-science/extract-knowledge-from-text-end-to-end-information-extraction-pipeline-with-spacy-and-neo4j-502b2b1e0754
 
 https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrough Performance
