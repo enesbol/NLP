@@ -1,11 +1,15 @@
 # NLP
 
-*llama*:
+**llama**: 
+
+https://arxiv.org/pdf/2307.09288.pdf: Llama 2: Open Foundation and Fine-Tuned Chat Models
+
 
 https://medium.com/@ogbanugot/notes-on-fine-tuning-llama-2-using-qlora-a-detailed-breakdown-370be42ccca1 Notes on fine-tuning Llama 2 using QLoRA: A detailed breakdown
+
 https://trojrobert.medium.com/4-easier-ways-for-fine-tuning-llama-2-and-other-open-source-llms-eb3218657f6e 2 easy ways for fine-tuning LLAMA-v2 and other Open source LLMs
 
-*QLORA*:
+**QLORA**:
 
 https://arxiv.org/pdf/2305.14314.pdf: QLORA: Efficient Finetuning of Quantized LLMs
 - Reduces memory usage for finetuning a 65B model on a single 48GB GPU while maintaining full 16-bit fine-tuning task performance.
@@ -14,7 +18,7 @@ https://arxiv.org/pdf/2305.14314.pdf: QLORA: Efficient Finetuning of Quantized L
 - Paged optimizers manage memory spikes.
 
 
-*llmlingua* (Prompt Compression):
+**llmlingua** (Prompt Compression):
 
 - Natural language is redundant, amount of information varies.
 
