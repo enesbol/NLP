@@ -1,5 +1,4 @@
 # NLP
-links
 
 https://medium.com/towards-data-science/extract-knowledge-from-text-end-to-end-information-extraction-pipeline-with-spacy-and-neo4j-502b2b1e0754
 
@@ -16,9 +15,17 @@ llama:
 
 https://medium.com/@ogbanugot/notes-on-fine-tuning-llama-2-using-qlora-a-detailed-breakdown-370be42ccca1 Notes on fine-tuning Llama 2 using QLoRA: A detailed breakdown
 
-
 https://trojrobert.medium.com/4-easier-ways-for-fine-tuning-llama-2-and-other-open-source-llms-eb3218657f6e 2 easy ways for fine-tuning LLAMA-v2 and other Open source LLMs
- 
+
+https://arxiv.org/pdf/2305.14314.pdf: QLORA: Efficient Finetuning of Quantized LLMs
+
+QLORA:
+- Reduces memory usage for finetuning a 65B model on a single 48GB GPU while maintaining full 16-bit fine-tuning task performance.
+- NF4 (4-bit NormalFloat): Optimal for normally distributed weights.
+- Double quantization reduces average memory footprint.
+- Paged optimizers manage memory spikes.
+
+
 
 llmlingua:
 
