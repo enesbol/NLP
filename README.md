@@ -4,7 +4,7 @@
 
 https://arxiv.org/pdf/2307.09288.pdf: Llama 2: Open Foundation and Fine-Tuned Chat Models
 
-
+- *Fine-tuning with PEFT*
 https://medium.com/@ogbanugot/notes-on-fine-tuning-llama-2-using-qlora-a-detailed-breakdown-370be42ccca1 Notes on fine-tuning Llama 2 using QLoRA: A detailed breakdown
 
 https://trojrobert.medium.com/4-easier-ways-for-fine-tuning-llama-2-and-other-open-source-llms-eb3218657f6e 2 easy ways for fine-tuning LLAMA-v2 and other Open source LLMs
