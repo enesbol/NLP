@@ -18,6 +18,10 @@ https://arxiv.org/pdf/2305.14314.pdf: QLORA: Efficient Finetuning of Quantized L
 - Double quantization reduces average memory footprint.
 - Paged optimizers manage memory spikes.
 
+**RLHF - PPO VS DPO**
+
+https://arxiv.org/abs/2305.18290: Direct Preference Optimization: Your Language Model is Secretly a Reward Model
+https://www.youtube.com/watch?v=QXVCqtAZAn4&ab_channel=DeepLearningAI: Aligning LLMs with Direct Preference Optimization
 
 **llmlingua** (Prompt Compression):
 
@@ -51,7 +55,6 @@ https://arxiv.org/abs/2203.12533 PATHWAYS: ASYNCHRONOUS DISTRIBUTED DATAFLOW FOR
 https://arxiv.org/abs/2204.02311 PaLM: Scaling Language Modeling with Pathways
 
 https://arxiv.org/abs/1906.08237 XLNet: Generalized Autoregressive Pretraining for Language Understanding
-
 
 
 
