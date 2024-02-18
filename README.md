@@ -47,6 +47,7 @@ https://arxiv.org/pdf/2402.06196.pdf Large Language Models: A Survey
 
 
 **Embedding**
+
 https://arxiv.org/abs/2205.13147: Matryoshka Representation Learning
 
 - After further testing, the most exciting feature (for us) is that the 256-dimensional version of text-embedding-3-large can outperform the 1536-dimensional Ada 002. That is a 6x reduction in vector size.
