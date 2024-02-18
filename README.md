@@ -46,6 +46,14 @@ https://github.com/run-llama/llama_index/blob/main/llama_index/postprocessor/lon
 https://arxiv.org/pdf/2402.06196.pdf Large Language Models: A Survey
 
 
+**Embedding**
+https://arxiv.org/abs/2205.13147: Matryoshka Representation Learning
+
+- After further testing, the most exciting feature (for us) is that the 256-dimensional version of text-embedding-3-large can outperform the 1536-dimensional Ada 002. That is a 6x reduction in vector size.
+- OpenAI confirmed (after some prodding) that they achieved this via Matryoshka Representation Learning.
+- MRL encodes information at different embedding dimensionalities. As per the paper, this enables up to 14x smaller embedding sizes with negligible degradation in accuracy.
+
+
 https://arxiv.org/pdf/1909.10351.pdf: TINYBERT: DISTILLING BERT FOR NATURAL LANGUAGE UNDERSTANDING
 https://arxiv.org/pdf/1910.01108.pdf: DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter
 
