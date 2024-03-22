@@ -19,10 +19,14 @@ https://trojrobert.medium.com/4-easier-ways-for-fine-tuning-llama-2-and-other-op
 **QLORA**:
 
 https://arxiv.org/pdf/2305.14314.pdf: QLORA: Efficient Finetuning of Quantized LLMs
+- Computation Data Type: Usually BFloat16
+- Low-Precision Storage Data Type: 4-bit
 - Reduces memory usage for finetuning a 65B model on a single 48GB GPU while maintaining full 16-bit fine-tuning task performance.
 - NF4 (4-bit NormalFloat): Optimal for normally distributed weights.
 - Double quantization reduces average memory footprint.
 - Paged optimizers manage memory spikes.
+
+  *Paged optimizers*: Prevent memory spikes we abruptly get a really long input, especially when we're working with a single GPU. Fix: state of the optimizer ex: Adam moved from GPU memory to CPU memory till the long seq. is read. then when the GPU memory is free, the optimizer state is moved back to the GPU. paged optimizers is a part of bitsandbytes library and can be enabled using flag .is_paged from Optimizer8bit class.
 
 **RLHF - PPO VS DPO**
 
