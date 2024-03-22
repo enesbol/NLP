@@ -1,5 +1,11 @@
 # NLP
 
+https://github.com/mlabonne/llm-course
+
+**Greedy Search & Beam Search & Top-k sampling & Nucleus sampling**
+https://mlabonne.github.io/blog/posts/2023-06-07-Decoding_strategies.html
+
+
 **llama**: 
 
 https://arxiv.org/pdf/2307.09288.pdf: Llama 2: Open Foundation and Fine-Tuned Chat Models
