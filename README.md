@@ -65,6 +65,14 @@ https://arxiv.org/abs/2205.13147: Matryoshka Representation Learning
 - MRL encodes information at different embedding dimensionalities. As per the paper, this enables up to 14x smaller embedding sizes with negligible degradation in accuracy.
 
 
+
+- MTEB: This benchmark covers 56 different tasks, including retrieval, classification, re-ranking, clustering, summarization, and more. Depending on your goals, you can look at the precise subset of tasks representing your use case.
+
+- BEIR: This benchmark focuses on the retrieval task and adds complexity in the form of different types and domains of questions, such as fact-checking, biomedical questions, or detecting duplicate questions. MTEB is largely a superset of the BEIR benchmark,
+
+
+
+
 https://arxiv.org/pdf/1909.10351.pdf: TINYBERT: DISTILLING BERT FOR NATURAL LANGUAGE UNDERSTANDING
 https://arxiv.org/pdf/1910.01108.pdf: DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter
 
